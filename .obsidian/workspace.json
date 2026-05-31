@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-系统架构层/4.2 会话与交互层.md",
+                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.2 会话与交互层"
+              "title": "5.6 RAG-Memory"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-系统架构层/4.2 会话与交互层.md",
+                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "4.2 会话与交互层 的反向链接列表"
+              "title": "5.6 RAG-Memory 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-系统架构层/4.2 会话与交互层.md",
+                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "4.2 会话与交互层 的出链列表"
+              "title": "5.6 RAG-Memory 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-系统架构层/4.2 会话与交互层.md",
+                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4.2 会话与交互层 的大纲"
+              "title": "5.6 RAG-Memory 的大纲"
             }
           }
         ]
@@ -183,8 +183,18 @@
       "bases:新建数据库": false
     }
   },
-  "active": "5210226b134c7784",
+  "active": "5763975cd0988739",
   "lastOpenFiles": [
+    "docs/superpowers/specs/2026-06-01-job-capability-map-structure-design.md",
+    "docs/superpowers/specs",
+    "docs/superpowers",
+    "docs",
+    "05-Agent系统化落地层/5.0 总览.md",
+    "05-Agent系统化落地层/5.0 1总览.md",
+    "05-Agent系统化落地层/5.0总览.md",
+    "05-Agent系统化落地层/_index.md",
+    "99-附件/知识地图.md",
+    "04-系统架构层/4.2 会话与交互层.md",
     "04-系统架构层/4.1 入口层.md",
     "04-系统架构层/4.5 RAG-Memory层.md",
     "05-Agent系统化落地层/5.3 Agent Runtime.md",
@@ -204,22 +214,12 @@
     "40-高频面试主题索引树/40.6 如何评估Agent.md",
     "40-高频面试主题索引树/40.10 你的项目高级在哪里.md",
     "40-高频面试主题索引树/40.4 Tool Calling怎么保证安全.md",
-    "40-高频面试主题索引树/40.2 Agent和Workflow区别.md",
-    "40-高频面试主题索引树/40.7 AI项目怎么落地.md",
-    "40-高频面试主题索引树/40.3 RAG怎么做.md",
-    "40-高频面试主题索引树/40.5 Checkpoint怎么实现.md",
-    "40-高频面试主题索引树/40.9 如何做AI平台.md",
-    "40-高频面试主题索引树/40.1 Agent是什么.md",
-    "39-岗位能力模型覆盖树/_index.md",
     "99-模板",
     "99-附件",
     "40-高频面试主题索引树",
     "39-岗位能力模型覆盖树",
     "38-AI项目失败模式与避坑体系",
     "37-开源生态技术选型深水区",
-    "36-AI组织能力与治理体系深水区",
-    "35-行业售前解决方案深水区",
-    "34-端到端交付方法论深水区",
-    "33-AI原生交互体验深水区"
+    "36-AI组织能力与治理体系深水区"
   ]
 }

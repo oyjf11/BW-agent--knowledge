@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e3db3087aa557b2f",
+        "id": "8a0bbc7f1f4b76d3",
         "type": "tabs",
         "children": [
           {
-            "id": "5210226b134c7784",
+            "id": "39c539312c8383d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
-                "mode": "preview",
+                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.6 RAG-Memory"
+              "title": "30.3 越权风险"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
+                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "5.6 RAG-Memory 的反向链接列表"
+              "title": "30.3 越权风险 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
+                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "5.6 RAG-Memory 的出链列表"
+              "title": "30.3 越权风险 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-Agent系统化落地层/5.6 RAG-Memory.md",
+                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5.6 RAG-Memory 的大纲"
+              "title": "30.3 越权风险 的大纲"
             }
           }
         ]
@@ -185,41 +185,42 @@
   },
   "active": "5763975cd0988739",
   "lastOpenFiles": [
-    "docs/superpowers/specs/2026-06-01-job-capability-map-structure-design.md",
-    "docs/superpowers/specs",
-    "docs/superpowers",
-    "docs",
-    "05-Agent系统化落地层/5.0 总览.md",
-    "05-Agent系统化落地层/5.0 1总览.md",
-    "05-Agent系统化落地层/5.0总览.md",
-    "05-Agent系统化落地层/_index.md",
-    "99-附件/知识地图.md",
-    "04-系统架构层/4.2 会话与交互层.md",
-    "04-系统架构层/4.1 入口层.md",
-    "04-系统架构层/4.5 RAG-Memory层.md",
-    "05-Agent系统化落地层/5.3 Agent Runtime.md",
-    "08-工程交付层/8.2 前端工程.md",
-    "08-工程交付层/8.1 研发流程.md",
-    "01-业务场景层/1.1 业务问题识别.md",
-    "01-业务场景层/1.0 总览.md",
-    "08-项目案例-快捷入口/企业AI开发套件项目.md",
-    "08-工程交付层/_index.md",
-    "README.md",
-    "欢迎.md",
-    "99-模板/面试题模板.md",
-    "99-模板/概念笔记模板.md",
-    "99-模板/项目笔记模板.md",
-    "40-高频面试主题索引树/_index.md",
-    "40-高频面试主题索引树/40.8 如何保证AI可靠.md",
-    "40-高频面试主题索引树/40.6 如何评估Agent.md",
-    "40-高频面试主题索引树/40.10 你的项目高级在哪里.md",
-    "40-高频面试主题索引树/40.4 Tool Calling怎么保证安全.md",
-    "99-模板",
-    "99-附件",
-    "40-高频面试主题索引树",
-    "39-岗位能力模型覆盖树",
-    "38-AI项目失败模式与避坑体系",
-    "37-开源生态技术选型深水区",
-    "36-AI组织能力与治理体系深水区"
+    "99-附件/岗位能力覆盖审计-2026-05.md",
+    "VISIBLE-COPY/opencode-commands/vault-map-projects.md",
+    "VISIBLE-COPY/opencode-commands/vault-generate-interview-questions.md",
+    "VISIBLE-COPY/opencode-commands/vault-fix-structure.md",
+    "VISIBLE-COPY/opencode-commands/vault-build-links.md",
+    "VISIBLE-COPY/opencode-commands/vault-build-indexes.md",
+    "VISIBLE-COPY/opencode-commands/vault-audit.md",
+    "VISIBLE-COPY/opencode-commands/source-to-resume-bullets.md",
+    "VISIBLE-COPY/opencode-commands/source-to-knowledge-map.md",
+    "VISIBLE-COPY/opencode-commands/source-risk-audit.md",
+    "VISIBLE-COPY/opencode-commands/source-evidence-card.md",
+    "VISIBLE-COPY/opencode-commands/source-deep-dive-questions.md",
+    "VISIBLE-COPY/opencode-commands/source-audit.md",
+    "VISIBLE-COPY/opencode-commands",
+    "VISIBLE-COPY/opencode-skills/vault-audit.md",
+    "VISIBLE-COPY/opencode-skills/source-to-resume-bullets.md",
+    "VISIBLE-COPY/opencode-skills/source-risk-audit.md",
+    "VISIBLE-COPY/opencode-skills/source-deep-dive-questions.md",
+    "VISIBLE-COPY/opencode-skills/source-audit.md",
+    "VISIBLE-COPY/opencode-skills/project-mapper.md",
+    "VISIBLE-COPY/opencode-skills/project-evidence-card.md",
+    "VISIBLE-COPY/opencode-skills/note-template-normalizer.md",
+    "VISIBLE-COPY/opencode-skills/link-graph-builder.md",
+    "VISIBLE-COPY/opencode-skills/interview-question-generator.md",
+    "VISIBLE-COPY/opencode-skills/index-maintainer.md",
+    "VISIBLE-COPY/opencode-skills/code-to-knowledge-map.md",
+    "VISIBLE-COPY/opencode-skills",
+    "VISIBLE-COPY/codex-prompts/vault-map-projects.md",
+    "VISIBLE-COPY/codex-prompts",
+    "VISIBLE-COPY/agents-skills",
+    "VISIBLE-COPY",
+    "MANIFEST.json",
+    "44-中国大陆AI合规落地深水区",
+    "43-ToB AI产品经理基本功深水区",
+    "未命名文件夹",
+    "42-Agent前沿能力深水区",
+    "未命名.canvas"
   ]
 }

@@ -429,7 +429,7 @@ Expected: 不暂存任何禁止修改文件。
 - [[41.4 分布式系统设计]]
 - [[41.5 高并发高可用]]
 - [[41.6 测试部署与故障排查]]
-- [[41.7 系统设计面试关键词]]
+- [[41.7 系统设计面试关键词✅]]
 
 ## 备注
 - 这里作为高级 Agent 开发的通用工程底座入口。
@@ -857,50 +857,50 @@ Expected: 只保留执行开始前已有的受保护文件或 Canvas 改动，�
 | 能力ID | 能力域 | 原子能力 | 优先级 | 主知识节点 | 项目证据入口 |
 |---|---|---|---|---|---|
 | DEV-ENG-01 | 通用工程与系统设计 | 使用主流后端语言实现可维护服务 | P0 | [[41.1 编程语言与异步编程]] | [[企业AI开发套件项目]] |
-| DEV-ENG-02 | 通用工程与系统设计 | 处理异步任务、并发执行和资源控制 | P0 | [[41.1 编程语言与异步编程]] | [[运维智能体项目-OpsPilot]] |
+| DEV-ENG-02 | 通用工程与系统设计 | 处理异步任务、并发执行和资源控制 | P0 | [[41.1 编程语言与异步编程]] | [[运维智能体项目-OpsPilot✅]] |
 | DEV-ENG-03 | 通用工程与系统设计 | 设计 REST、RPC 和 Webhook API | P0 | [[41.2 API与后端服务]] | [[企业AI开发套件项目]] |
 | DEV-ENG-04 | 通用工程与系统设计 | 使用数据库事务、索引和查询优化 | P1 | [[41.3 数据库缓存与消息队列]] | [[企业AI开发套件项目]] |
-| DEV-ENG-05 | 通用工程与系统设计 | 使用缓存、消息队列和事件驱动机制 | P1 | [[41.3 数据库缓存与消息队列]] | [[运维智能体项目-OpsPilot]] |
-| DEV-ENG-06 | 通用工程与系统设计 | 设计分布式一致性和幂等边界 | P0 | [[41.4 分布式系统设计]] | [[运维智能体项目-OpsPilot]] |
+| DEV-ENG-05 | 通用工程与系统设计 | 使用缓存、消息队列和事件驱动机制 | P1 | [[41.3 数据库缓存与消息队列]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-ENG-06 | 通用工程与系统设计 | 设计分布式一致性和幂等边界 | P0 | [[41.4 分布式系统设计]] | [[运维智能体项目-OpsPilot✅]] |
 | DEV-ENG-07 | 通用工程与系统设计 | 设计限流、熔断、降级和高可用方案 | P0 | [[41.5 高并发高可用]] | [[企业AI开发套件项目]] |
-| DEV-ENG-08 | 通用工程与系统设计 | 建立测试、容器化和 CI/CD 流程 | P1 | [[41.6 测试部署与故障排查]] | [[AI Coding工程化项目]] |
-| DEV-ENG-09 | 通用工程与系统设计 | 定位日志、链路和生产故障 | P1 | [[41.6 测试部署与故障排查]] | [[运维智能体项目-OpsPilot]] |
-| DEV-ENG-10 | 通用工程与系统设计 | 完成系统设计取舍和容量分析 | P0 | [[41.7 系统设计面试关键词]] | [[企业AI开发套件项目]] |
+| DEV-ENG-08 | 通用工程与系统设计 | 建立测试、容器化和 CI/CD 流程 | P1 | [[41.6 测试部署与故障排查]] | [[AI Coding工程化项目✅]] |
+| DEV-ENG-09 | 通用工程与系统设计 | 定位日志、链路和生产故障 | P1 | [[41.6 测试部署与故障排查]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-ENG-10 | 通用工程与系统设计 | 完成系统设计取舍和容量分析 | P0 | [[41.7 系统设计面试关键词✅]] | [[企业AI开发套件项目]] |
 | DEV-MODEL-01 | 模型与推理 | 理解 Transformer、Token 和上下文窗口 | P1 | [[12.7 Transformer与大模型基础]] | [[企业AI开发套件项目]] |
 | DEV-MODEL-02 | 模型与推理 | 按任务效果、延迟和成本选择模型 | P0 | [[12.1 模型选型]] | [[企业AI开发套件项目]] |
-| DEV-MODEL-03 | 模型与推理 | 设计上下文裁剪、压缩和注入策略 | P0 | [[12.4 Context Engineering]] | [[应用生成智能体项目]] |
+| DEV-MODEL-03 | 模型与推理 | 设计上下文裁剪、压缩和注入策略 | P0 | [[12.4 Context Engineering]] | [[应用生成智能体项目✅]] |
 | DEV-MODEL-04 | 模型与推理 | 理解 Embedding 和 Rerank 原理 | P1 | [[12.8 Embedding与Rerank原理]] | [[企业AI开发套件项目]] |
 | DEV-MODEL-05 | 模型与推理 | 判断 SFT、DPO、LoRA、RAG 和规则边界 | P1 | [[12.5 微调与替代方案]] | [[企业AI开发套件项目]] |
 | DEV-MODEL-06 | 模型与推理 | 理解量化和私有化模型部署 | P2 | [[12.9 微调量化与模型部署]] | [[企业AI开发套件项目]] |
 | DEV-MODEL-07 | 模型与推理 | 理解推理加速、GPU 和 vLLM 基础 | P2 | [[12.10 推理加速与GPU基础]] | [[企业AI开发套件项目]] |
 | DEV-MODEL-08 | 模型与推理 | 实现模型网关、路由、熔断和 fallback | P0 | [[12.6 推理服务]] | [[企业AI开发套件项目]] |
-| DEV-AGENT-01 | Agent 架构与编排 | 判断 Agent、Workflow 和传统系统边界 | P0 | [[5.2 Agent架构模式]] | [[应用生成智能体项目]] |
-| DEV-AGENT-02 | Agent 架构与编排 | 设计 Router、Planner、Executor 和 Critic | P0 | [[5.4 Planning-Reasoning]] | [[应用生成智能体项目]] |
-| DEV-AGENT-03 | Agent 架构与编排 | 实现 Agent Orchestrator 调度 | P0 | [[13.9 Agent Orchestrator]] | [[应用生成智能体项目]] |
-| DEV-AGENT-04 | Agent 架构与编排 | 判断何时使用 Multi-Agent | P1 | [[22.1 是否需要Multi-Agent]] | [[应用生成智能体项目]] |
-| DEV-AGENT-05 | Agent 架构与编排 | 选择 DAG、Supervisor-Worker 和 Critic-Refine 编排模式 | P1 | [[22.3 编排模式]] | [[应用生成智能体项目]] |
-| DEV-AGENT-06 | Agent 架构与编排 | 设计多 Agent 通信和收敛条件 | P1 | [[22.4 多Agent通信]] | [[应用生成智能体项目]] |
-| DEV-AGENT-07 | Agent 架构与编排 | 设计 Human-in-the-loop 审批和接管 | P0 | [[5.7 Human-in-the-loop]] | [[运维智能体项目-OpsPilot]] |
-| DEV-AGENT-08 | Agent 架构与编排 | 设计复杂任务拆解和动态重规划 | P0 | [[13.9 Agent Orchestrator]] | [[应用生成智能体项目]] |
-| DEV-AGENT-09 | Agent 架构与编排 | 设计短期记忆和长期记忆边界 | P1 | [[42.1 长期记忆系统]] | [[应用生成智能体项目]] |
+| DEV-AGENT-01 | Agent 架构与编排 | 判断 Agent、Workflow 和传统系统边界 | P0 | [[5.2 Agent架构模式]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-02 | Agent 架构与编排 | 设计 Router、Planner、Executor 和 Critic | P0 | [[5.4 Planning-Reasoning]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-03 | Agent 架构与编排 | 实现 Agent Orchestrator 调度 | P0 | [[13.9 Agent Orchestrator]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-04 | Agent 架构与编排 | 判断何时使用 Multi-Agent | P1 | [[22.1 是否需要Multi-Agent]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-05 | Agent 架构与编排 | 选择 DAG、Supervisor-Worker 和 Critic-Refine 编排模式 | P1 | [[22.3 编排模式]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-06 | Agent 架构与编排 | 设计多 Agent 通信和收敛条件 | P1 | [[22.4 多Agent通信]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-07 | Agent 架构与编排 | 设计 Human-in-the-loop 审批和接管 | P0 | [[5.7 Human-in-the-loop]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-AGENT-08 | Agent 架构与编排 | 设计复杂任务拆解和动态重规划 | P0 | [[13.9 Agent Orchestrator]] | [[应用生成智能体项目✅]] |
+| DEV-AGENT-09 | Agent 架构与编排 | 设计短期记忆和长期记忆边界 | P1 | [[42.1 长期记忆系统]] | [[应用生成智能体项目✅]] |
 | DEV-AGENT-10 | Agent 架构与编排 | 按业务约束选择 Agent 框架 | P1 | [[37.1 Agent框架]] | [[企业AI开发套件项目]] |
-| DEV-RUNTIME-01 | Agent Runtime | 建模任务状态机和生命周期 | P0 | [[13.5 任务生命周期]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-02 | Agent Runtime | 实现 Durable Execution | P0 | [[13.1 Durable Execution]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-03 | Agent Runtime | 实现 Checkpoint 和断点恢复 | P0 | [[13.1 Durable Execution]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-04 | Agent Runtime | 使用 Event Log 支撑 Replay 和 RCA | P0 | [[13.6 Replay-Time Travel]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-05 | Agent Runtime | 处理工具执行和状态保存一致性 | P0 | [[13.2 状态一致性]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-06 | Agent Runtime | 实现幂等、去重和重试安全 | P0 | [[13.3 幂等与去重]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-07 | Agent Runtime | 设计队列、Worker 和并发调度 | P0 | [[13.4 并发控制]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-08 | Agent Runtime | 处理取消、超时、失败和降级 | P1 | [[5.3 Agent Runtime]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-09 | Agent Runtime | 建立 Trace、指标和任务成本观测 | P0 | [[13.7 Runtime可观测性]] | [[运维智能体项目-OpsPilot]] |
-| DEV-RUNTIME-10 | Agent Runtime | 支撑长任务暂停、审批后恢复和人工接管 | P1 | [[13.1 Durable Execution]] | [[运维智能体项目-OpsPilot]] |
+| DEV-RUNTIME-01 | Agent Runtime | 建模任务状态机和生命周期 | P0 | [[13.5 任务生命周期]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-02 | Agent Runtime | 实现 Durable Execution | P0 | [[13.1 Durable Execution]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-03 | Agent Runtime | 实现 Checkpoint 和断点恢复 | P0 | [[13.1 Durable Execution]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-04 | Agent Runtime | 使用 Event Log 支撑 Replay 和 RCA | P0 | [[13.6 Replay-Time Travel]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-05 | Agent Runtime | 处理工具执行和状态保存一致性 | P0 | [[13.2 状态一致性]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-06 | Agent Runtime | 实现幂等、去重和重试安全 | P0 | [[13.3 幂等与去重]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-07 | Agent Runtime | 设计队列、Worker 和并发调度 | P0 | [[13.4 并发控制]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-08 | Agent Runtime | 处理取消、超时、失败和降级 | P1 | [[5.3 Agent Runtime]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-09 | Agent Runtime | 建立 Trace、指标和任务成本观测 | P0 | [[13.7 Runtime可观测性]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-RUNTIME-10 | Agent Runtime | 支撑长任务暂停、审批后恢复和人工接管 | P1 | [[13.1 Durable Execution]] | [[运维智能体项目-OpsPilot✅]] |
 | DEV-TOOL-01 | Tool / MCP | 设计结构化 Tool Schema | P0 | [[21.2 Tool Schema]] | [[企业AI开发套件项目]] |
 | DEV-TOOL-02 | Tool / MCP | 实现 Tool Executor 参数、权限和结果校验 | P0 | [[21.3 Tool Executor]] | [[企业AI开发套件项目]] |
 | DEV-TOOL-03 | Tool / MCP | 使用 MCP Server 标准化工具封装 | P0 | [[21.4 MCP Server]] | [[企业AI开发套件项目]] |
-| DEV-TOOL-04 | Tool / MCP | 设计工具风险分级和审批 | P0 | [[21.6 工具风险分级]] | [[运维智能体项目-OpsPilot]] |
-| DEV-TOOL-05 | Tool / MCP | 处理工具失败、重试和只读降级 | P0 | [[21.7 工具调用失败处理]] | [[运维智能体项目-OpsPilot]] |
+| DEV-TOOL-04 | Tool / MCP | 设计工具风险分级和审批 | P0 | [[21.6 工具风险分级]] | [[运维智能体项目-OpsPilot✅]] |
+| DEV-TOOL-05 | Tool / MCP | 处理工具失败、重试和只读降级 | P0 | [[21.7 工具调用失败处理]] | [[运维智能体项目-OpsPilot✅]] |
 | DEV-TOOL-06 | Tool / MCP | 接入 REST、GraphQL、Webhook 和 SDK | P1 | [[7.3 API集成]] | [[企业AI开发套件项目]] |
-| DEV-TOOL-07 | Tool / MCP | 记录工具调用审计链路 | P1 | [[31.5 审计]] | [[运维智能体项目-OpsPilot]] |
+| DEV-TOOL-07 | Tool / MCP | 记录工具调用审计链路 | P1 | [[31.5 审计]] | [[运维智能体项目-OpsPilot✅]] |
 | DEV-RAG-01 | RAG | 判断 RAG、Tool 和微调适用边界 | P0 | [[20.1 RAG适用场景判断]] | [[企业AI开发套件项目]] |
 | DEV-RAG-02 | RAG | 设计文档接入、解析和 Chunk 策略 | P0 | [[20.3 文档解析]] | [[企业AI开发套件项目]] |
 | DEV-RAG-03 | RAG | 设计 Metadata 和权限过滤 | P0 | [[20.5 Metadata设计]] | [[企业AI开发套件项目]] |
@@ -910,22 +910,22 @@ Expected: 只保留执行开始前已有的受保护文件或 Canvas 改动，�
 | DEV-RAG-07 | RAG | 设计 Rerank 和上下文预算 | P0 | [[20.7 Rerank策略]] | [[企业AI开发套件项目]] |
 | DEV-RAG-08 | RAG | 优化检索延迟和召回性能 | P1 | [[20.13 检索性能与延迟优化]] | [[企业AI开发套件项目]] |
 | DEV-RAG-09 | RAG | 评估和归因 RAG 失败类型 | P0 | [[20.9 RAG失败类型]] | [[企业AI开发套件项目]] |
-| DEV-EVAL-01 | EvalOps | 构建 Golden Dataset 和 Bad Case Dataset | P0 | [[15.2 样本构建]] | [[AI Coding工程化项目]] |
-| DEV-EVAL-02 | EvalOps | 实现规则评测、LLM-as-Judge 和轨迹评测 | P0 | [[15.3 自动评测]] | [[AI Coding工程化项目]] |
-| DEV-EVAL-03 | EvalOps | 实现可复现评测和实验对比 | P1 | [[15.10 可复现评测与实验管理]] | [[AI Coding工程化项目]] |
-| DEV-EVAL-04 | EvalOps | 建立变更回归和上线门禁 | P0 | [[15.5 回归体系]] | [[AI Coding工程化项目]] |
+| DEV-EVAL-01 | EvalOps | 构建 Golden Dataset 和 Bad Case Dataset | P0 | [[15.2 样本构建]] | [[AI Coding工程化项目✅]] |
+| DEV-EVAL-02 | EvalOps | 实现规则评测、LLM-as-Judge 和轨迹评测 | P0 | [[15.3 自动评测]] | [[AI Coding工程化项目✅]] |
+| DEV-EVAL-03 | EvalOps | 实现可复现评测和实验对比 | P1 | [[15.10 可复现评测与实验管理]] | [[AI Coding工程化项目✅]] |
+| DEV-EVAL-04 | EvalOps | 建立变更回归和上线门禁 | P0 | [[15.5 回归体系]] | [[AI Coding工程化项目✅]] |
 | DEV-EVAL-05 | EvalOps | 监控在线指标和质量看板 | P1 | [[15.7 指标看板]] | [[企业AI开发套件项目]] |
-| DEV-EVAL-06 | EvalOps | 建立 Bad Case 闭环优化 | P0 | [[15.6 闭环优化]] | [[AI Coding工程化项目]] |
+| DEV-EVAL-06 | EvalOps | 建立 Bad Case 闭环优化 | P0 | [[15.6 闭环优化]] | [[AI Coding工程化项目✅]] |
 | DEV-SEC-01 | 安全治理 | 防护直接和间接 Prompt Injection | P0 | [[30.1 Prompt Injection]] | [[企业AI开发套件项目]] |
-| DEV-SEC-02 | 安全治理 | 强制执行数据权限和多租户隔离 | P0 | [[31.4 数据权限]] | [[企业AI开发套件项目]] |
-| DEV-SEC-03 | 安全治理 | 使用沙箱、审批和白名单控制工具滥用 | P0 | [[30.4 工具滥用风险]] | [[运维智能体项目-OpsPilot]] |
+| DEV-SEC-02 | 安全治理 | 强制执行数据权限和多租户隔离 | P0 | [[31.4 数据权限✅]] | [[企业AI开发套件项目]] |
+| DEV-SEC-03 | 安全治理 | 使用沙箱、审批和白名单控制工具滥用 | P0 | [[30.4 工具滥用风险]] | [[运维智能体项目-OpsPilot✅]] |
 | DEV-SEC-04 | 安全治理 | 建立红队测试和安全回归集 | P1 | [[30.6 红队测试]] | [[企业AI开发套件项目]] |
 | DEV-SEC-05 | 安全治理 | 建立模型、知识和工具审计 | P0 | [[31.5 审计]] | [[企业AI开发套件项目]] |
-| DEV-FRONTIER-01 | Agent 前沿能力 | 设计长期记忆系统 | P1 | [[42.1 长期记忆系统]] | [[应用生成智能体项目]] |
-| DEV-FRONTIER-02 | Agent 前沿能力 | 封装 Skills 和可复用能力 | P1 | [[42.2 Skills与可复用能力封装]] | [[AI Coding工程化项目]] |
-| DEV-FRONTIER-03 | Agent 前沿能力 | 理解 Browser 和 Computer Use Agent | P2 | [[42.3 Browser与Computer Use Agent]] | [[应用生成智能体项目]] |
-| DEV-FRONTIER-04 | Agent 前沿能力 | 设计多模态 Agent 输入和工具链 | P1 | [[42.4 多模态Agent]] | [[应用生成智能体项目]] |
-| DEV-FRONTIER-05 | Agent 前沿能力 | 理解 Tool Learning 和 Self-Improvement | P2 | [[42.5 Tool Learning与Self-Improvement]] | [[AI Coding工程化项目]] |
+| DEV-FRONTIER-01 | Agent 前沿能力 | 设计长期记忆系统 | P1 | [[42.1 长期记忆系统]] | [[应用生成智能体项目✅]] |
+| DEV-FRONTIER-02 | Agent 前沿能力 | 封装 Skills 和可复用能力 | P1 | [[42.2 Skills与可复用能力封装]] | [[AI Coding工程化项目✅]] |
+| DEV-FRONTIER-03 | Agent 前沿能力 | 理解 Browser 和 Computer Use Agent | P2 | [[42.3 Browser与Computer Use Agent]] | [[应用生成智能体项目✅]] |
+| DEV-FRONTIER-04 | Agent 前沿能力 | 设计多模态 Agent 输入和工具链 | P1 | [[42.4 多模态Agent]] | [[应用生成智能体项目✅]] |
+| DEV-FRONTIER-05 | Agent 前沿能力 | 理解 Tool Learning 和 Self-Improvement | P2 | [[42.5 Tool Learning与Self-Improvement]] | [[AI Coding工程化项目✅]] |
 | DEV-FRONTIER-06 | Agent 前沿能力 | 理解 A2A 和 Agent 协议生态 | P2 | [[42.6 A2A与Agent协议生态]] | [[企业AI开发套件项目]] |
 | DEV-FRONTIER-07 | Agent 前沿能力 | 判断前沿能力的生产采用边界 | P1 | [[42.7 前沿能力选型边界]] | [[企业AI开发套件项目]] |
 
@@ -933,33 +933,33 @@ Expected: 只保留执行开始前已有的受保护文件或 Canvas 改动，�
 
 | 能力ID | 能力域 | 原子能力 | 优先级 | 主知识节点 | 项目证据入口 |
 |---|---|---|---|---|---|
-| PM-SCENE-01 | 场景判断与需求抽象 | 识别企业业务痛点 | P0 | [[1.1 业务问题识别]] | [[运维智能体项目-OpsPilot]] |
-| PM-SCENE-02 | 场景判断与需求抽象 | 识别知识、流程、决策和生成类场景 | P0 | [[1.2 场景类型识别]] | [[应用生成智能体项目]] |
-| PM-SCENE-03 | 场景判断与需求抽象 | 量化提效、降本、增收、提质和风控价值 | P0 | [[1.3 业务价值判断]] | [[运维智能体项目-OpsPilot]] |
+| PM-SCENE-01 | 场景判断与需求抽象 | 识别企业业务痛点 | P0 | [[1.1 业务问题识别]] | [[运维智能体项目-OpsPilot✅]] |
+| PM-SCENE-02 | 场景判断与需求抽象 | 识别知识、流程、决策和生成类场景 | P0 | [[1.2 场景类型识别]] | [[应用生成智能体项目✅]] |
+| PM-SCENE-03 | 场景判断与需求抽象 | 量化提效、降本、增收、提质和风控价值 | P0 | [[1.3 业务价值判断]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-SCENE-04 | 场景判断与需求抽象 | 判断 AI 适用性 | P0 | [[1.4 AI适用性判断]] | [[企业AI开发套件项目]] |
 | PM-SCENE-05 | 场景判断与需求抽象 | 识别不适合直接 AI 化的场景 | P1 | [[1.5 不适合直接AI化的场景]] | [[企业AI开发套件项目]] |
-| PM-SCENE-06 | 场景判断与需求抽象 | 执行客户调研和用户研究 | P0 | [[43.1 客户调研与用户研究]] | [[运维智能体项目-OpsPilot]] |
+| PM-SCENE-06 | 场景判断与需求抽象 | 执行客户调研和用户研究 | P0 | [[43.1 客户调研与用户研究]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-SCENE-07 | 场景判断与需求抽象 | 抽象需求、流程节点和系统集成点 | P0 | [[43.2 需求分析与场景抽象]] | [[企业AI开发套件项目]] |
 | PM-SCENE-08 | 场景判断与需求抽象 | 按客户价值、可行性和风险排序需求 | P0 | [[17.6 需求优先级]] | [[企业AI开发套件项目]] |
 | PM-PRODUCT-01 | AI 产品方案 | 选择 Assistant、Copilot、Agent、Workflow 或 Platform | P0 | [[2.1 产品定位]] | [[企业AI开发套件项目]] |
 | PM-PRODUCT-02 | AI 产品方案 | 定义用户角色和权限边界 | P0 | [[2.2 用户角色设计]] | [[企业AI开发套件项目]] |
-| PM-PRODUCT-03 | AI 产品方案 | 设计多模态输入和任务输出 | P1 | [[2.3 用户输入设计]] | [[应用生成智能体项目]] |
-| PM-PRODUCT-04 | AI 产品方案 | 设计人机协同和审批节点 | P0 | [[2.6 人机协同设计]] | [[运维智能体项目-OpsPilot]] |
+| PM-PRODUCT-03 | AI 产品方案 | 设计多模态输入和任务输出 | P1 | [[2.3 用户输入设计]] | [[应用生成智能体项目✅]] |
+| PM-PRODUCT-04 | AI 产品方案 | 设计人机协同和审批节点 | P0 | [[2.6 人机协同设计]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-PRODUCT-05 | AI 产品方案 | 定义 AI 能力边界、失败兜底和责任边界 | P0 | [[2.7 产品边界设计]] | [[企业AI开发套件项目]] |
 | PM-PRODUCT-06 | AI 产品方案 | 设计高频低风险 MVP | P0 | [[2.8 MVP范围设计]] | [[企业AI开发套件项目]] |
-| PM-PRODUCT-07 | AI 产品方案 | 编写 PRD 和 AI 产品方案 | P0 | [[43.3 PRD与产品方案]] | [[应用生成智能体项目]] |
+| PM-PRODUCT-07 | AI 产品方案 | 编写 PRD 和 AI 产品方案 | P0 | [[43.3 PRD与产品方案]] | [[应用生成智能体项目✅]] |
 | PM-PRODUCT-08 | AI 产品方案 | 规划 Roadmap 和版本节奏 | P1 | [[43.4 Roadmap与版本规划]] | [[企业AI开发套件项目]] |
-| PM-PRODUCT-09 | AI 产品方案 | 设计可解释、可控和可接管体验 | P0 | [[33.4 可控体验]] | [[运维智能体项目-OpsPilot]] |
+| PM-PRODUCT-09 | AI 产品方案 | 设计可解释、可控和可接管体验 | P0 | [[33.4 可控体验]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-TECH-01 | AI 技术理解 | 理解模型选型的效果、延迟和成本取舍 | P2 | [[12.1 模型选型]] | [[企业AI开发套件项目]] |
 | PM-TECH-02 | AI 技术理解 | 理解 Prompt 和 Context Engineering | P1 | [[12.4 Context Engineering]] | [[企业AI开发套件项目]] |
 | PM-TECH-03 | AI 技术理解 | 理解 RAG 适用场景和关键链路 | P0 | [[20.1 RAG适用场景判断]] | [[企业AI开发套件项目]] |
 | PM-TECH-04 | AI 技术理解 | 理解 Tool / MCP 的行动边界 | P0 | [[21.1 Tool设计原则]] | [[企业AI开发套件项目]] |
-| PM-TECH-05 | AI 技术理解 | 理解 Agent Runtime 生产风险 | P0 | [[5.3 Agent Runtime]] | [[运维智能体项目-OpsPilot]] |
-| PM-TECH-06 | AI 技术理解 | 判断 Multi-Agent 是否必要 | P2 | [[22.1 是否需要Multi-Agent]] | [[应用生成智能体项目]] |
+| PM-TECH-05 | AI 技术理解 | 理解 Agent Runtime 生产风险 | P0 | [[5.3 Agent Runtime]] | [[运维智能体项目-OpsPilot✅]] |
+| PM-TECH-06 | AI 技术理解 | 判断 Multi-Agent 是否必要 | P2 | [[22.1 是否需要Multi-Agent]] | [[应用生成智能体项目✅]] |
 | PM-TECH-07 | AI 技术理解 | 理解平台化沉淀价值 | P1 | [[14.9 平台化价值]] | [[企业AI开发套件项目]] |
 | PM-TECH-08 | AI 技术理解 | 使用评测门禁控制上线风险 | P0 | [[15.8 上线门禁]] | [[企业AI开发套件项目]] |
-| PM-EVAL-01 | 评测与运营 | 定义业务结果指标 | P0 | [[9.1 业务指标]] | [[运维智能体项目-OpsPilot]] |
-| PM-EVAL-02 | 评测与运营 | 定义 Agent 执行指标 | P0 | [[9.3 Agent执行指标]] | [[运维智能体项目-OpsPilot]] |
+| PM-EVAL-01 | 评测与运营 | 定义业务结果指标 | P0 | [[9.1 业务指标]] | [[运维智能体项目-OpsPilot✅]] |
+| PM-EVAL-02 | 评测与运营 | 定义 Agent 执行指标 | P0 | [[9.3 Agent执行指标]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-EVAL-03 | 评测与运营 | 理解 RAG 评测指标 | P1 | [[9.4 RAG指标]] | [[企业AI开发套件项目]] |
 | PM-EVAL-04 | 评测与运营 | 建立 Bad Case 运营机制 | P0 | [[9.6 Bad Case运营]] | [[企业AI开发套件项目]] |
 | PM-EVAL-05 | 评测与运营 | 设计评测产品和评分 Rubric | P1 | [[15.9 评测产品设计]] | [[企业AI开发套件项目]] |
@@ -972,11 +972,11 @@ Expected: 只保留执行开始前已有的受保护文件或 Canvas 改动，�
 | PM-DATA-05 | 数据分析与知识运营 | 规划知识生命周期和知识运营 | P1 | [[32.3 知识工程]] | [[企业AI开发套件项目]] |
 | PM-DELIVERY-01 | 交付与组织推进 | 规划立项到规模化阶段 | P0 | [[34.1 立项阶段]] | [[企业AI开发套件项目]] |
 | PM-DELIVERY-02 | 交付与组织推进 | 使用 PoC 验证关键假设 | P0 | [[34.2 PoC阶段]] | [[企业AI开发套件项目]] |
-| PM-DELIVERY-03 | 交付与组织推进 | 设计 MVP 和试点闭环 | P0 | [[34.3 MVP阶段]] | [[运维智能体项目-OpsPilot]] |
+| PM-DELIVERY-03 | 交付与组织推进 | 设计 MVP 和试点闭环 | P0 | [[34.3 MVP阶段]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-DELIVERY-04 | 交付与组织推进 | 推动生产治理和正式上线 | P1 | [[34.5 生产阶段]] | [[企业AI开发套件项目]] |
 | PM-DELIVERY-05 | 交付与组织推进 | 推动模板化交付和规模复制 | P1 | [[34.6 规模化阶段]] | [[企业AI开发套件项目]] |
 | PM-DELIVERY-06 | 交付与组织推进 | 协同业务、研发、数据、安全和管理层 | P1 | [[11.2 角色协作]] | [[企业AI开发套件项目]] |
-| PM-DELIVERY-07 | 交付与组织推进 | 完成客户需求调研和成功标准定义 | P0 | [[35.1 需求调研]] | [[运维智能体项目-OpsPilot]] |
+| PM-DELIVERY-07 | 交付与组织推进 | 完成客户需求调研和成功标准定义 | P0 | [[35.1 需求调研]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-PLATFORM-01 | 平台产品理解 | 理解模型网关平台 | P1 | [[14.1 模型网关平台]] | [[企业AI开发套件项目]] |
 | PM-PLATFORM-02 | 平台产品理解 | 理解 Prompt 管理平台 | P1 | [[14.2 Prompt管理平台]] | [[企业AI开发套件项目]] |
 | PM-PLATFORM-03 | 平台产品理解 | 理解 RAG 知识平台 | P1 | [[14.3 RAG知识平台]] | [[企业AI开发套件项目]] |
@@ -991,7 +991,7 @@ Expected: 只保留执行开始前已有的受保护文件或 Canvas 改动，�
 | PM-BIZ-06 | 商业化与客户成功 | 做出效果、成本、风险和平台化取舍 | P0 | [[17.7 高级产品取舍]] | [[企业AI开发套件项目]] |
 | PM-GOV-01 | 安全与中国大陆合规 | 设计用户、角色、租户和工具权限 | P0 | [[10.1 权限控制]] | [[企业AI开发套件项目]] |
 | PM-GOV-02 | 安全与中国大陆合规 | 控制敏感信息、脱敏和数据不出域 | P0 | [[10.2 数据安全]] | [[企业AI开发套件项目]] |
-| PM-GOV-03 | 安全与中国大陆合规 | 设计 Agent 行为边界和高风险审批 | P0 | [[10.5 Agent行为治理]] | [[运维智能体项目-OpsPilot]] |
+| PM-GOV-03 | 安全与中国大陆合规 | 设计 Agent 行为边界和高风险审批 | P0 | [[10.5 Agent行为治理✅]] | [[运维智能体项目-OpsPilot✅]] |
 | PM-GOV-04 | 安全与中国大陆合规 | 判断中国大陆 AI 合规适用范围 | P1 | [[44.1 合规适用范围判断]] | [[企业AI开发套件项目]] |
 | PM-GOV-05 | 安全与中国大陆合规 | 管理数据来源授权和个人信息保护 | P1 | [[44.2 数据来源授权与个人信息保护]] | [[企业AI开发套件项目]] |
 | PM-GOV-06 | 安全与中国大陆合规 | 规划生成合成内容显式和隐式标识 | P1 | [[44.3 生成合成内容标识]] | [[企业AI开发套件项目]] |

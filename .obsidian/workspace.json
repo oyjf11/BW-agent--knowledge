@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
+                "file": "08-工程交付层✅/8.1 研发流程✅.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "30.3 越权风险"
+              "title": "8.1 研发流程✅"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
+                "file": "08-工程交付层✅/8.1 研发流程✅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "30.3 越权风险 的反向链接列表"
+              "title": "8.1 研发流程✅ 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
+                "file": "08-工程交付层✅/8.1 研发流程✅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "30.3 越权风险 的出链列表"
+              "title": "8.1 研发流程✅ 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30-安全攻防与红队测试深水区/30.3 越权风险.md",
+                "file": "08-工程交付层✅/8.1 研发流程✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "30.3 越权风险 的大纲"
+              "title": "8.1 研发流程✅ 的大纲"
             }
           }
         ]
@@ -183,44 +183,44 @@
       "bases:新建数据库": false
     }
   },
-  "active": "5763975cd0988739",
+  "active": "39c539312c8383d5",
   "lastOpenFiles": [
-    "99-附件/岗位能力覆盖审计-2026-05.md",
-    "VISIBLE-COPY/opencode-commands/vault-map-projects.md",
-    "VISIBLE-COPY/opencode-commands/vault-generate-interview-questions.md",
-    "VISIBLE-COPY/opencode-commands/vault-fix-structure.md",
-    "VISIBLE-COPY/opencode-commands/vault-build-links.md",
-    "VISIBLE-COPY/opencode-commands/vault-build-indexes.md",
-    "VISIBLE-COPY/opencode-commands/vault-audit.md",
-    "VISIBLE-COPY/opencode-commands/source-to-resume-bullets.md",
-    "VISIBLE-COPY/opencode-commands/source-to-knowledge-map.md",
-    "VISIBLE-COPY/opencode-commands/source-risk-audit.md",
-    "VISIBLE-COPY/opencode-commands/source-evidence-card.md",
-    "VISIBLE-COPY/opencode-commands/source-deep-dive-questions.md",
-    "VISIBLE-COPY/opencode-commands/source-audit.md",
-    "VISIBLE-COPY/opencode-commands",
-    "VISIBLE-COPY/opencode-skills/vault-audit.md",
-    "VISIBLE-COPY/opencode-skills/source-to-resume-bullets.md",
-    "VISIBLE-COPY/opencode-skills/source-risk-audit.md",
-    "VISIBLE-COPY/opencode-skills/source-deep-dive-questions.md",
-    "VISIBLE-COPY/opencode-skills/source-audit.md",
-    "VISIBLE-COPY/opencode-skills/project-mapper.md",
-    "VISIBLE-COPY/opencode-skills/project-evidence-card.md",
-    "VISIBLE-COPY/opencode-skills/note-template-normalizer.md",
-    "VISIBLE-COPY/opencode-skills/link-graph-builder.md",
-    "VISIBLE-COPY/opencode-skills/interview-question-generator.md",
-    "VISIBLE-COPY/opencode-skills/index-maintainer.md",
-    "VISIBLE-COPY/opencode-skills/code-to-knowledge-map.md",
-    "VISIBLE-COPY/opencode-skills",
-    "VISIBLE-COPY/codex-prompts/vault-map-projects.md",
-    "VISIBLE-COPY/codex-prompts",
-    "VISIBLE-COPY/agents-skills",
-    "VISIBLE-COPY",
-    "MANIFEST.json",
-    "44-中国大陆AI合规落地深水区",
-    "43-ToB AI产品经理基本功深水区",
-    "未命名文件夹",
-    "42-Agent前沿能力深水区",
+    "24-AI应用生成平台深水区✅/24.2 Router深水区✅.md",
+    "20-RAG深水区✅/20.9 RAG失败类型.md",
+    "20-RAG深水区✅/_index.md",
+    "20-RAG深水区✅/20.8 RAG注入方式✅.md",
+    "20-RAG深水区✅/20.4 Chunk策略.md",
+    "20-RAG深水区✅/20.7 Rerank策略.md",
+    "20-RAG深水区✅/20.6 检索策略.md",
+    "20-RAG深水区✅/20.5 Metadata设计.md",
+    "20-RAG深水区✅/20.3 文档解析.md",
+    "20-RAG深水区✅/20.2 文档接入.md",
+    "20-RAG深水区✅/20.13 检索性能与延迟优化.md",
+    "20-RAG深水区✅/20.12 向量数据库与HNSW-IVF.md",
+    "20-RAG深水区✅/20.11 BM25与倒排索引.md",
+    "20-RAG深水区✅/20.10 RAG高级面试回答关键词.md",
+    "20-RAG深水区✅/20.1 RAG适用场景判断.md",
+    "20-RAG深水区✅",
+    "31-企业权限身份多租户深水区✅/31.6 高级关键词.md",
+    "31-企业权限身份多租户深水区✅/_index.md",
+    "31-企业权限身份多租户深水区✅/31.3 多租户隔离✅.md",
+    "31-企业权限身份多租户深水区✅/31.5 审计.md",
+    "31-企业权限身份多租户深水区✅/31.4 数据权限✅.md",
+    "31-企业权限身份多租户深水区✅/31.1 身份认证✅.md",
+    "31-企业权限身份多租户深水区✅/31.2 权限模型.md",
+    "31-企业权限身份多租户深水区✅",
+    "08-项目案例-快捷入口✅/企业AI开发套件项目.md",
+    "08-项目案例-快捷入口✅/应用生成智能体项目✅.md",
+    "08-项目案例-快捷入口✅/运维智能体项目-OpsPilot✅.md",
+    "08-项目案例-快捷入口✅/AI Coding工程化项目✅.md",
+    "08-项目案例-快捷入口✅",
+    "25-运维智能体-AIOps深水区✅",
+    "04-系统架构层✅",
+    "08-工程交付层✅",
+    "23-AI Coding工程化深水区✅",
+    "24-AI应用生成平台深水区✅",
+    "19-面试项目表达与案例沉淀层✅",
+    "41-通用工程与系统设计底座✅",
     "未命名.canvas"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "package": "ai-agent-workspace-toolkit-full-v3",
-  "skills_count": 12,
+  "skills_count": 13,
   "commands_count": 12,
   "real_paths": [
     ".agents/skills/<skill-name>/SKILL.md",
@@ -26,6 +26,7 @@
     "source-deep-dive-questions",
     "source-risk-audit",
     "source-to-resume-bullets",
+    "source-to-knowledge",
     "vault-audit"
   ],
   "commands": [

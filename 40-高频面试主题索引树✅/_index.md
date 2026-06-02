@@ -5,7 +5,7 @@
 - [[40.2 Agent和Workflow区别]]
 - [[40.3 RAG怎么做]]
 - [[40.4 Tool Calling怎么保证安全]]
-- [[40.5 Checkpoint怎么实现]]
+- [[40.5 Checkpoint怎么实现✅]]
 - [[40.6 如何评估Agent]]
 - [[40.7 AI项目怎么落地]]
 - [[40.8 如何保证AI可靠]]
